@@ -1,0 +1,56 @@
+[2022-06-15T01:22:04.719] [INFO] console - Server are running on http://localhost:9999
+[2022-06-15T01:22:04.739] [INFO] console - DataBase Connected Successfully
+[2022-06-15T01:22:11.294] [INFO] console - [Error [ValidationError]: Please enter valid date] {
+  _original: {
+    FirstName: 'Amit',
+    MiddleName: 'Kumar',
+    LastName: 'Ray',
+    Email: 'raypritam10@gmail.com',
+    Password: '123456',
+    Gender: 'Male',
+    DOB: '',
+    DateOfJoining: '2018-01-01T00:00:00.000Z',
+    ContactNo: '8699535682',
+    EmployeeCode: '2015',
+    Account: '55153902552'
+  },
+  details: [
+    {
+      message: 'Please enter valid date',
+      path: [Array],
+      type: 'date.base',
+      context: [Object]
+    }
+  ]
+}
+[2022-06-15T01:30:45.862] [INFO] console - Hello log4js
+[2022-06-15T01:32:38.155] [INFO] console - Going to createEmployee : employee [[object Object]]
+[2022-06-15T01:33:10.372] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T01:34:16.014] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T01:35:49.068] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T01:35:49.078] [ERROR] console - Where error occur when create Emloyee : a is a required field
+[2022-06-15T14:15:11.054] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:15:30.834] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:15:30.838] [ERROR] console - Where error occur when create Emloyee : dob is a required field
+[2022-06-15T14:16:03.140] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:16:03.144] [ERROR] console - Where error occur when create Emloyee : Please enter valid date
+[2022-06-15T14:20:57.349] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:20:57.354] [ERROR] console - Where error occur when create Emloyee : Please enter valid date
+[2022-06-15T14:21:29.002] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:21:29.007] [INFO] console - Going to createEmployee : All Parameter for Validat : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:23:24.455] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:23:24.460] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:23:57.712] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:23:57.719] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:24:14.148] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:24:14.152] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:24:39.520] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:24:39.527] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:27:59.037] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:27:59.042] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:28:27.881] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:28:27.887] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:29:56.349] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:29:56.354] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]
+[2022-06-15T14:30:11.671] [INFO] console - Going to createEmployee : employee [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"09/08/1998","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":"55153902552"}]
+[2022-06-15T14:30:11.680] [INFO] console - Going to createEmployee : All Parameter for Validate : [{"FirstName":"Amit","MiddleName":"Kumar","LastName":"Ray","Email":"raypritam10@gmail.com","Password":"123456","Gender":"Male","DOB":"1998-09-07T18:30:00.000Z","DateOfJoining":"2018-01-01T00:00:00.000Z","ContactNo":"8699535682","EmployeeCode":"2015","Account":55153902552}]

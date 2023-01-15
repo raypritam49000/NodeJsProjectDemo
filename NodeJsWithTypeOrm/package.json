@@ -1,0 +1,25 @@
+{
+  "name": "nodejswithtypeorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.35",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.7.0",
+    "typeorm": "^0.3.6",
+    "typescript": "^4.6.4"
+  }
+}
